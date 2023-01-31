@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agurumi shop</title>
+    <script src="https://kit.fontawesome.com/3c934cb418.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../imagenes/Logo.png" alt="" id="logo">
+        </div>
+    </header>
+    <nav class="menuprincipal">
+        <div>
+            <ul id= "listamenu">         
+                <li><a href="../index.html"> Inicio</a></li>
+                <li><a href="Productos.html"> Productos</a></li>          
+                <li><a href="QuienesSomos.html"> ¿Quiénes somos?</a></li>  
+                <li><a href="Antecedentes.html">Antecedentes</a></li> 
+                <li><a href="Contacto.html"> Contacto</a></li>
+                <li><a href="IniciarSesion.html"> Iniciar sesión</a></li>    
+           </ul>   
+       </div>
+    </nav>
+    <img src="../imagenes/hamburguesa.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="../index.html">Inicio</a>
+            <a href="Productos.html">Productos</a>
+            <a href="QuienesSomos.html">¿Quienes somos?</a>
+            <a href="Contacto.html">Contacto</a>
+            <a href="IniciarSesion.html">Iniciar sesión</a>
+        </nav>
+        <main class="contactos">
+            <aside class="infoadicional">         
+                <h1>Nuestras redes:</h1>         
+                <a href="./" class="icono"> <i class='bx bxl-instagram'></i></a><a href="" class="red"> _amigurumishopp_</a><br>
+                <a href="./" class="icono"> <i class='bx bxl-facebook'></i></a><a href="" class="red"> Amigurumi shop</a><br>
+                <a href="./" class="icono"> <i class='bx bxl-gmail'></i></a><a href="" class="red"> amigurumishoop@gmail.com</a></p>
+            </aside> 
+            <section class="contenedor-contacto">
+                <div class="contacto"> 
+                    <form method="POST" action="">
+                        <input type="text" name="name" placeholder="Nombre">
+                        <input type="email" name = "email" placeholder = "Correo electrónico" required>
+                        <input id="msj" type="text" name="message" placeholder="Mensaje" required>
+                        <div class="boton">
+                            <input id="enviar-msj" type="submit" name ="enviar" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main> 
+    <!-- pie de página -->
+    <footer class="piepagina">
+        <div class="contenedor-pie">
+            <small>&copy; 2023, Agurumi shop</small>
+            <div class="redes-sociales">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-gmail' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../Js/menu.js"></script>
+</body>
+</html>
